@@ -22,3 +22,45 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+/* Hero Section */
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    padding: 0 0 0 7em;
+}
+
+img {
+    width: 80%;
+    flex-shrink: 0;
+}
+.right {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #F9FAF8;
+}
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+button {
+    font-size: 18px;
+    width:120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 2em;
+    text-align: center;
+}
