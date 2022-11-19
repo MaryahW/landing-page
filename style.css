@@ -67,6 +67,7 @@ button {
     margin: 2em;
     text-align: center;
 }
+/* Call to Action */
 .action {
     display: flex;
     justify-content: center;
@@ -82,4 +83,19 @@ button {
 }
 h2 {
     text-align: center;
+}
+/* Quote Section */
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding:50px 200px;
+}
+.quote-1 {
+    margin: 0; 
 }
