@@ -28,7 +28,7 @@ a {
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    gap: 2em;
+    
     padding: 0 0 0 7em;
 }
 
@@ -44,16 +44,19 @@ img {
 .left {
     display: flex;
     flex-direction: column;
+    
 }
 h1 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 400;
     color: #F9FAF8;
+    margin: 0;
 }
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+    margin: 0;
 }
 button {
     font-size: 18px;
@@ -62,5 +65,21 @@ button {
     border-radius: 8px;
     padding: 5px;
     margin: 2em;
+    text-align: center;
+}
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;;
+}
+.box {
+    width: 150px;
+    height: 100px;
+    border-radius: 1em;
+    margin: 10px;
+}
+h2 {
     text-align: center;
 }
