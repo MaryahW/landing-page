@@ -67,8 +67,8 @@ button {
     margin: 2em;
     text-align: center;
 }
-/* Call to Action */
-.action {
+/* Information */
+.information {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,4 +98,41 @@ h2 {
 }
 .quote-1 {
     margin: 0; 
+}
+/* Call to Action */
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+.containter {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 0px 50px;
+    color: white;
+}
+.text {
+    font-size: 18px;
+    font-style: bold;
+    margin-bottom: 0;
+    padding-top:10px;
+}
+.sub {
+    font-size: 14px;
+    margin:0;
+}
+.sign-up {
+    color:white;
+    margin-left: 100px;
+    border-color: white;
+}
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
 }
